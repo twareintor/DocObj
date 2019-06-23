@@ -5,6 +5,7 @@
 
 int main()
 {
+    printf(VERSION);
     gszdisp = new char[400];
     CxxApp* Application = new CxxApp;
     std::cout<<std::endl;
